@@ -9,6 +9,7 @@ Classification(
   colnum,
   numresamples,
   predict_on_new_data = c("Y", "N"),
+  set_seed = c("Y", "N"),
   remove_VIF_above,
   scale_all_numeric_predictors_in_data,
   how_to_handle_strings = c(0("No strings"), 1("Strings as factors")),
@@ -27,9 +28,11 @@ Classification(
 
 \item{numresamples}{the number of times to resample the analysis}
 
-\item{predict_on_new_data}{Gives the user the opportunity to use the trained models to predict on new and untrained data}
+\item{predict_on_new_data}{asks if the user has new data to be analyzed using the trained models that were just developed}
 
-\item{remove_VIF_above}{Removes columns with Variance Inflaction Factors above the level chosen by the user}
+\item{set_seed}{Gives the user the option to set a seed}
+
+\item{remove_VIF_above}{Removes columns with Variance Inflation Factors above the level chosen by the user}
 
 \item{scale_all_numeric_predictors_in_data}{Scales all numeric predictors in the original data}
 

@@ -1,6 +1,6 @@
 Package: ClassificationEnsembles
 Title: Automatically Builds 20 Classification Models
-Version: 0.5.0
+Version: 0.6.0
 Authors@R: 
     person("Russ", "Conte", , "russconte@mac.com", role = c("aut", "cre", "cph"))
 Description: Automatically builds 20 classification models from data. The package returns 26 plots, 5 tables and a summary report.
@@ -20,8 +20,8 @@ VignetteBuilder: knitr
 URL: https://github.com/InfiniteCuriosity/ClassificationEnsembles
 BugReports: https://github.com/InfiniteCuriosity/ClassificationEnsembles/issues
 NeedsCompilation: no
-Packaged: 2025-03-30 22:25:56 UTC; russellconte
+Packaged: 2025-07-31 21:44:09 UTC; russellconte
 Author: Russ Conte [aut, cre, cph]
 Maintainer: Russ Conte <russconte@mac.com>
 Repository: CRAN
-Date/Publication: 2025-04-01 16:10:05 UTC
+Date/Publication: 2025-07-31 22:02:13 UTC
