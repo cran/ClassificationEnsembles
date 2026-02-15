@@ -1,27 +1,25 @@
 Package: ClassificationEnsembles
-Title: Automatically Builds 12 Classification Models
-Version: 0.7.1
+Title: Automatically Builds 12 Classification Models (6 Individual and
+        6 Ensembles of Models) from Classification Data
+Version: 1.0.0
 Authors@R: 
     person("Russ", "Conte", , "russconte@mac.com", role = c("aut", "cre", "cph"))
-Description: Automatically builds 12 classification models from data. The package returns 26 plots, 5 tables and a summary report.
-    The package automatically builds six individual classification models, including error (RMSE) and predictions. That data is used to create an ensemble, which is then modeled using six methods.
-    The process is repeated as many times as the user requests. The mean of the results are presented in a summary table. 
-    The package returns the confusion matrices for all 12 models, tables of the correlation of the numeric data, the results of the variance inflation process, the head of the ensemble and the head of the data frame.
+Description: Automatically builds 12 classification models from data. The package also returns 25 plots, 5 tables and a summary report.
 License: MIT + file LICENSE
 Depends: C50, car, caret, corrplot, doParallel, dplyr, e1071, ggplot2,
         gt, ipred, MachineShop, magrittr, parallel, pls, purrr, R (>=
-        2.10), randomForest, ranger, reactable, reactablefmtr, scales,
+        3.5), randomForest, ranger, reactable, reactablefmtr, scales,
         tidyr, tree
 Encoding: UTF-8
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 LazyData: true
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 URL: https://github.com/InfiniteCuriosity/ClassificationEnsembles
 BugReports: https://github.com/InfiniteCuriosity/ClassificationEnsembles/issues
 NeedsCompilation: no
-Packaged: 2025-10-15 01:37:36 UTC; russellconte
+Packaged: 2026-02-15 19:25:31 UTC; russellconte
 Author: Russ Conte [aut, cre, cph]
 Maintainer: Russ Conte <russconte@mac.com>
 Repository: CRAN
-Date/Publication: 2025-10-15 15:30:02 UTC
+Date/Publication: 2026-02-15 19:50:06 UTC
